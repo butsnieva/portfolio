@@ -1,0 +1,11 @@
+#about-me {
+    border: 1px solid #fda387;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+#about-me-container {
+    margin-top: 420px;
+    margin-bottom: 100px;
+    padding-top: 30px;
+}

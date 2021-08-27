@@ -1,0 +1,27 @@
+#my-name {
+  font-size: 55px;
+  padding-top: 140px;
+}
+
+#title-container {
+    padding-top: 70px;
+}
+
+.subtitle {
+    margin: 0px;
+    color: #b1b1b1 !important;
+    font-family: 'Montserrat', sans-serif !important;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+/* ANIMATIONS */
+#my-name {
+  animation: fadeInLeft;
+  animation-duration: 3s;
+}
+
+#my-sub {
+  animation: fadeInRight;
+  animation-duration: 3s;
+}

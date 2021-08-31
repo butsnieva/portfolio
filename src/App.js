@@ -6,17 +6,17 @@ import SkillsPage from './pages/Skills';
 import PortfolioPage from './pages/Portfolio';
 import ContactCanvas from './components/Contact';
 import Footer from './components/Footer';
-import Navbar from './components/Navbar';
+import ResumeModal from './components/ResumeModal';
 
 function App() {
   return (
     <Router>
-      {/* <Navbar /> */}
       <Route exact path='/' component={AboutPage} />
       <Route exact path='/about' component={AboutPage} />
       <Route exact path='/portfolio' component={PortfolioPage} />
       <Route exact path='/skills' component={SkillsPage} />
       <ContactCanvas />
+      <ResumeModal />
       <Footer />
     </Router>
   );

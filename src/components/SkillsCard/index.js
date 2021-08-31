@@ -4,7 +4,9 @@ import './style.css';
 function SkillsCard(props) {
   return (
     <div className='uk-text-center client-side-card'>
-      <div className={`uk-card uk-card-default ${props.name}-card`}>
+      <div
+        className={`uk-card uk-card-default ${props.name}-card ${props.animate}`}
+      >
         <div className='uk-card-body'>
           <h3 className='uk-card-title'>{props.title}</h3>
           <ul className='uk-list uk-list-divider'>

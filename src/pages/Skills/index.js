@@ -23,18 +23,21 @@ function SkillsPage(props) {
             title='Client Side'
             icon='desktop'
             name='client'
+            animate='slide-left'
           />
           <SkillsCard
             skills={serverSide}
             title='Server Side'
             icon='server'
             name='server'
+            animate='slide-up'
           />
           <SkillsCard
             skills={testing}
             title='Testing'
             icon='nut'
             name='Testing'
+            animate='slide-right'
           />
         </div>
       </CardContainer>

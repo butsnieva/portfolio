@@ -46,7 +46,11 @@ function Navbar(props) {
               </Link>
             </li>
             <li>
-              <a className='nav-item'>Resume</a>
+              <a uk-toggle='target: #resume-modal' 
+                className='nav-item'
+              >
+                Resume
+              </a>
             </li>
             <li>
               <a

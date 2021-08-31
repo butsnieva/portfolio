@@ -7,6 +7,21 @@
     color: #fda387;
 }
 
+.slide-left {
+  animation: slideInLeft;
+  animation-duration: 3s;
+}
+
+.slide-right {
+  animation: slideInRight;
+  animation-duration: 3s;
+}
+
+.slide-up {
+  animation: slideInUp;
+  animation-duration: 3s;
+}
+
 @media only screen and (min-width: 960px) {
     .design-card-footer {
         position: absolute;

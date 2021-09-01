@@ -1,7 +1,10 @@
 :root {
+    --white: white;
+    --pale-gray: #e4e4e4;
+    --light-gray: #cac8c8;
     --gray: gray;
     --accent: #b182ba;
-    --dark-gray: #2c3e50d8;
+    --dark-gray: #5e5c61;
     --bg-gray: #ECECEC;
     font-family:'Roboto', sans-serif !important;
     background-color: var(--bg-gray);
@@ -27,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 hr {
-    width: 7%;
+    width: 15%;
     margin: 40px auto 40px auto;
     background-color: var(--accent);
     height: 1px;

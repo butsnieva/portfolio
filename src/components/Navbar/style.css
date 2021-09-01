@@ -7,11 +7,11 @@ nav-item {
 }
 
 .nav-item:hover, .menu-icon:hover {
-    color: #fda387 !important;
+    color: var(--accent) !important;
 }
 
 .menu-icon {
-    color: gray;
+    color: var(--gray);
     padding: 20px;
 }
 
@@ -19,6 +19,6 @@ nav-item {
     font-size: 12px;
     padding-left: 10px;
     font-weight: 100;
-    color: rgb(202, 200, 200) !important;
+    color: var(--light-gray) !important;
     text-transform: uppercase;
 }

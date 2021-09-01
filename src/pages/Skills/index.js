@@ -35,7 +35,7 @@ function SkillsPage(props) {
           <SkillsCard
             skills={testing}
             title='Testing'
-            icon='nut'
+            icon='cog'
             name='Testing'
             animate='slide-right'
           />

@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './style.css';
-import MobileMenu from './MobileMenu';
 
 const style = {
   navbar: {
@@ -20,7 +19,7 @@ function Navbar(props) {
           <ul className='uk-navbar-nav uk-visible@m'>
             <li>
               <Link
-                to='/portfolio/about'
+                to='/about'
                 className='nav-item'
                 style={{ color: props.color }}
               >
@@ -29,7 +28,7 @@ function Navbar(props) {
             </li>
             <li>
               <Link
-                to='/portfolio/projects'
+                to='/projects'
                 className='nav-item'
                 style={{ color: props.color }}
               >
@@ -38,7 +37,7 @@ function Navbar(props) {
             </li>
             <li>
               <Link
-                to='/portfolio/skills'
+                to='/skills'
                 className='nav-item'
                 style={{ color: props.color }}
               >
@@ -69,7 +68,6 @@ function Navbar(props) {
           </a>
         </div>
       </nav>
-      <MobileMenu />
     </div>
   );
 }

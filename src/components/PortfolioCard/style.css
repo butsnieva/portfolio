@@ -4,8 +4,13 @@
 }
 
 .project-description {
-    color: gray;
+    color: var(--gray);
     margin-top: 10px;
+}
+
+.project-built-with {
+    color: var(--gray);
+    font-size: smaller;
 }
 
 polyline {
@@ -29,10 +34,8 @@ polyline {
 
 .portfolio-btn {
     border-radius: 20px;
-    border: 1px solid rgb(156, 231, 156);
-    color: rgb(156, 231, 156);
-    border: 1px solid #fda387;
-    color: #fda387;
+    border: 1px solid var(--accent);
+    color: var(--accent);
     margin-left: 12px;
     margin-right: 12px;
     padding: 0px 11px 0px 11px;
@@ -40,8 +43,8 @@ polyline {
 }
 
 .portfolio-btn:hover {
-    background-color: #fda387;
-    color: white;
+    background-color: var(--accent);
+    color: var(--white);
     border: none;
 }
 
@@ -53,6 +56,12 @@ polyline {
     .project-title {
         padding-top: 0px;
         margin-bottom: 0px;
+    }
+} 
+
+@media only screen and (max-width: 420px) {
+    .project-description {
+        font-size: 10px;
     }
 } 
 

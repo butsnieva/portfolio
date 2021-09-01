@@ -13,13 +13,13 @@ function MobileMenu() {
         ></button>
         <ul className='uk-list'>
           <li>
-            <Link to='/portfolio/about' className='nav-item mobile-nav-item'>
+            <Link to='/about' className='nav-item mobile-nav-item'>
               About
             </Link>
           </li>
           <li>
             <Link
-              to='/portfolio/projects'
+              to='/projects'
               className='nav-item mobile-nav-item'
             >
               Portfolio
@@ -27,7 +27,7 @@ function MobileMenu() {
           </li>
           <li>
             <Link
-              to='/portfolio/skills'
+              to='/skills'
               className='nav-item mobile-nav-item'
             >
               Skills

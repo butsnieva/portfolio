@@ -4,22 +4,22 @@
 }
 
 .skills-icon {
-    color: #fda387;
+    color: var(--accent);
 }
 
 .slide-left {
   animation: slideInLeft;
-  animation-duration: 3s;
+  animation-duration: 1s;
 }
 
 .slide-right {
   animation: slideInRight;
-  animation-duration: 3s;
+  animation-duration: 1s;
 }
 
 .slide-up {
   animation: slideInUp;
-  animation-duration: 3s;
+  animation-duration: 1s;
 }
 
 @media only screen and (min-width: 960px) {

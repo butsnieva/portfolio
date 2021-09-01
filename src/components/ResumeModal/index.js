@@ -1,4 +1,5 @@
 import React from 'react';
+import resume from '../../assets/1PageResume.docx';
 
 function ResumeModal() {
   return (
@@ -11,7 +12,7 @@ function ResumeModal() {
         ></button>
         <p>
           <embed
-            src='assets/1PageResume.docx'
+            src={resume}
             type='application/pdf'
             width='100%'
             height='600px'

@@ -3,7 +3,7 @@
 ## Description
 My personal website is a digital portfolio of the work I have accomplished since pursuing a career in web development. This website uses React as a framework to develop a highly-performant, single-page web application.
 
-Through this website users can learn a little bit about me, view my recent works, contact me through an email form, and view my resume and technological proficiencies.
+Through this website users can learn a little bit about me, view my recent works, contact me, and view my resume and technological proficiencies.
 
 Thanks for checking it out!
 
@@ -14,9 +14,9 @@ Thanks for checking it out!
 * React
 * HTML
 * CSS
-* [UIKit](https://getuikit.com/)
+* UIKit
 * JavaScript
-* [Animate.css](https://animate.style/)
+* Animate.css
 
 ## Contact Me
 On GitHub: [butsnieva](https://github.com/butsnieva) | Via Email: butsnieva@gmail.com

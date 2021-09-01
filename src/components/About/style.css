@@ -1,13 +1,11 @@
-#about-me {
-    border: 1px solid var(--accent);;
-    padding: 7%;
-    border-radius: 20px;
-}
-
 #about-me-container {
     margin-bottom: 10%;
     padding-left: 0%;
+}
 
+#me-pic {
+    width: 20%;
+    border-radius: 100%;
 }
 
 @media only screen and (min-width: 769px) {

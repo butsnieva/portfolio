@@ -2,14 +2,14 @@
     font-size: .75rem;
     padding-left: 10px;
     font-weight: 100;
-    color: rgb(202, 200, 200) !important;
+    color: var(--light-gray) !important;
     text-transform: uppercase;
 }
 
 .contact-icon {
-    color: rgb(228, 228, 228) !important;
+    color: var(--pale-gray) !important;
 }
 
 #contact-title {
-    color: white !important;
+    color: var(--white) !important;
 } 

@@ -1,5 +1,5 @@
 #my-name {
-  font-size: 55px;
+  font-size: 60px;
   padding-top: 140px;
 }
 
@@ -9,7 +9,7 @@
 
 .subtitle {
     margin: 0px;
-    color: #b1b1b1 !important;
+    color: var(--gray) !important;
     font-family: 'Montserrat', sans-serif !important;
     text-transform: uppercase;
     font-weight: 300;
@@ -18,12 +18,12 @@
 /* ANIMATIONS */
 #my-name {
   animation: fadeInLeft;
-  animation-duration: 3s;
+  animation-duration: 2s;
 }
 
 #my-sub {
   animation: fadeInRight;
-  animation-duration: 3s;
+  animation-duration: 2s;
 }
 
 

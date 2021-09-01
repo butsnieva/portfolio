@@ -27,7 +27,7 @@ function ContactCanvas() {
           </li>
           <li>
             <span className='contact-icon' uk-icon='icon: receiver'></span>
-            <span className='contact-li uk-text-middle'>(512) 888-4419</span>
+            <span className='contact-li uk-text-middle'>(512)888-4419</span>
           </li>
           <li>
             <span uk-icon='icon: home' className='contact-icon'></span>

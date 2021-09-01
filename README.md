@@ -1,4 +1,4 @@
-# [React Portfolio](http://butsnieva.github.io/portfolio-v2)
+# [React Portfolio](http://butsnieva.github.io/portfolio)
 
 ## Description
 My personal website is a digital portfolio of the work I have accomplished since pursuing a career in web development. This website uses React as a framework to develop a highly-performant, single-page web application.

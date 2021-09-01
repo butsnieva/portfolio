@@ -1,7 +1,12 @@
 #pic-section {
-    background-image: url("../../assets/images/bg.jpg"); 
-    background-position: top;
+    background-image: url("../../assets/images/main-top-l.png"); 
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 1200px;
+    position:relative;
+}
+
+#bottom-about {
+    position: absolute;
+    bottom: 0;
+    z-index: -10;
 }

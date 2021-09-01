@@ -1,6 +1,8 @@
 import React from 'react';
 import './style.css';
 import Header from '../../components/Header';
+import profilePic from '../../assets/images/IMG_1525.jpg';
+
 
 function AboutSection() {
   return (
@@ -29,7 +31,7 @@ function AboutSection() {
               pulvinar nisi a lacinia faucibus. Nullam commodo tincidunt
               venenatis. Donec at justo leo.
             </p>
-            <img src='../../assets/images/IMG_1525.jpg' style={{ width: 125 }} />
+            <img src={profilePic} style={{ width: 125 }} />
           </div>
         </div>
       </div>

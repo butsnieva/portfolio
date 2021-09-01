@@ -20,7 +20,7 @@ function Navbar(props) {
           <ul className='uk-navbar-nav uk-visible@m'>
             <li>
               <Link
-                to='/portfolio-v2/about'
+                to='/portfolio/about'
                 className='nav-item'
                 style={{ color: props.color }}
               >
@@ -29,7 +29,7 @@ function Navbar(props) {
             </li>
             <li>
               <Link
-                to='portfolio-v2/projects'
+                to='/portfolio/projects'
                 className='nav-item'
                 style={{ color: props.color }}
               >
@@ -38,7 +38,7 @@ function Navbar(props) {
             </li>
             <li>
               <Link
-                to='portfolio-v2/skills'
+                to='/portfolio/skills'
                 className='nav-item'
                 style={{ color: props.color }}
               >

@@ -11,10 +11,10 @@ import ResumeModal from './components/ResumeModal';
 function App() {
   return (
     <Router>
-      <Route exact path='/portfolio-v2' component={AboutPage} />
-      <Route path='/portfolio-v2/about' component={AboutPage} />
-      <Route path='/portfolio-v2/projects' component={PortfolioPage} />
-      <Route path='/portfolio-v2/skills' component={SkillsPage} />
+      <Route exact path='/portfolio' component={AboutPage} />
+      <Route path='/portfolio/about' component={AboutPage} />
+      <Route path='/portfolio/projects' component={PortfolioPage} />
+      <Route path='/portfolio/skills' component={SkillsPage} />
       <ContactCanvas />
       <ResumeModal />
       <Footer />

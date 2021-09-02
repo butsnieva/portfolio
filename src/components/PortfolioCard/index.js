@@ -23,7 +23,7 @@ function PortfolioCard(props) {
             </ul>
             <a
               className='uk-position-top-right uk-position-small uk-hidden-hover'
-              href='#'
+              href='/'
               uk-slidenav-next='true'
               uk-slideshow-item='next'
             ></a>

@@ -1,5 +1,8 @@
 import React from 'react';
-import resume from '../../assets/1PageResume.docx';
+import { Document, Page, pdfjs } from 'react-pdf';
+import resume from '../../assets/resume.pdf';
+
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 function ResumeModal() {
   return (
@@ -10,14 +13,9 @@ function ResumeModal() {
           type='button'
           uk-close='true'
         ></button>
-        <p>
-          <embed
-            src={resume}
-            type='application/pdf'
-            width='100%'
-            height='600px'
-          />
-        </p>
+        <Document file={resume} onContextMenu={(e) => e.preventDefault()}>
+          <Page pageNumber={1} />
+        </Document>
       </div>
     </div>
   );

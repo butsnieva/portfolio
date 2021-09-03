@@ -15,10 +15,12 @@ function PortfolioCard(props) {
               <li>
                 <h3 className='uk-card-title project-title'>{props.title}</h3>
                 <p className='project-description'>{props.about}</p>
-                <p className='project-built-with'>{props.builtWith}</p>
+                <p className='project-built-with uk-position-bottom'>
+                  {props.builtWith}
+                </p>
               </li>
               <li>
-                <img src={props.imgURL} alt='' uk-cover='true' />
+                <img src={props.imgURL} alt={props.title} uk-cover='true' />
               </li>
             </ul>
             <a

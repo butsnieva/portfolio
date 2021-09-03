@@ -3,11 +3,11 @@ import './style.css';
 import Navbar from '../../components/Navbar';
 import HomeHeader from '../../components/HomeHeader';
 import AboutSection from '../../components/About';
-import bottomPic from '../../assets/images/bottom.png';
+import bottomPic from '../../assets/images/background/bottom.png';
 
 function AboutPage() {
   return (
-    <div id='pic-section' uk-parallax='bgy: -100'>
+    <div id='pic-section' uk-parallax='bgy: -75'>
       <Navbar />
       <HomeHeader />
       <AboutSection />

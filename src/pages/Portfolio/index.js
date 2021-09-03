@@ -17,7 +17,6 @@ function PortfolioPage() {
           className='uk-child-width-1-2@m uk-grid-match'
           uk-grid='true'
           id='portfolio-section'
-          uk-scrollspy='cls: uk-animation-fade; target: .uk-card; delay: 250; repeat: false'
         >
           {portfolioData.map((el, index) => {
             return (

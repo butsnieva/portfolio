@@ -7,9 +7,6 @@ Through this website users can learn a little bit about me, view my recent works
 
 Thanks for checking it out!
 
-<img width="900" alt="Portfolio" src="https://user-images.githubusercontent.com/80425583/131166920-dd55ef9e-1f63-40c3-ae01-89aee2d1f722.png">
-
-
 ## Technologies
 * React
 * HTML

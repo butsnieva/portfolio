@@ -11,9 +11,11 @@
 .project-built-with {
     color: var(--gray);
     font-size: smaller;
+    font-weight: 100;
+    word-spacing: 10px;
 }
 
-polyline {
+.portfolio-card-body polyline {
     fill: none;
     color: rgb(170, 170, 170);
 }
@@ -45,7 +47,7 @@ polyline {
 .portfolio-btn:hover {
     background-color: var(--accent);
     color: var(--white);
-    border: none;
+    border: 1px solid var(--accent);
 }
 
 @media only screen and (max-width: 374px) {

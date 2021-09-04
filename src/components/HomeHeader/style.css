@@ -8,7 +8,7 @@
 }
 
 .subtitle {
-    margin: 0px;
+    margin: 10px;
     color: var(--gray) !important;
     font-family: 'Montserrat', sans-serif !important;
     text-transform: uppercase;
@@ -60,6 +60,6 @@
 
 @media only screen and (min-width: 960px) {
   .subtitle {
-      font-size: 18px;
+      font-size: x-large;
   }
 }

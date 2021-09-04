@@ -1,6 +1,6 @@
 #pic-section {
     background-image: url("../../assets/images/background/top-main.png"); 
-    background-size: cover;
+    background-size: 140%;
     background-repeat: no-repeat;
     position:relative;
 }

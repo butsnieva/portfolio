@@ -10,30 +10,32 @@ function ContactCanvas() {
           type='button'
           uk-close='true'
         ></button>
-        <h3 id='contact-title'>Contact Me</h3>
+        <h3 id='contact-title'>
+          Contact Me
+        </h3>
         <ul className='uk-list'>
-          <li>
+          <li className='uk-flex uk-flex-middle'>
             <a
               uk-icon='icon: mail'
               className='contact-icon contact-link-icon'
               href='mailto:butsnieva@gmail.com'
             ></a>
             <a
-              className='contact-link contact-li uk-text-middle'
+              className='contact-link contact-li'
               href='mailto:butsnieva@gmail.com'
             >
               butsnieva@gmail.com
             </a>
           </li>
-          <li>
+          <li className='uk-flex uk-flex-middle'>
             <span className='contact-icon' uk-icon='icon: receiver'></span>
-            <span className='contact-li uk-text-middle'>(512)888-4419</span>
+            <span className='contact-li'>(512) 888-4419</span>
           </li>
-          <li>
+          <li className='uk-flex uk-flex-middle'>
             <span uk-icon='icon: home' className='contact-icon'></span>
-            <span className='contact-li uk-text-bottom'>Austin, TX</span>
+            <span className='contact-li'>Austin, TX</span>
           </li>
-          <li>
+          <li className='uk-flex uk-flex-middle'>
             <a
               uk-icon='icon: github'
               href='https://github.com/butsnieva'
@@ -41,14 +43,14 @@ function ContactCanvas() {
               target='_blank'
             ></a>
             <a
-              className='contact-link contact-li uk-text-middle'
+              className='contact-link contact-li'
               href='https://github.com/butsnieva'
               target='_blank'
             >
               butsnieva
             </a>
           </li>
-          <li>
+          <li className='uk-flex uk-flex-middle'>
             <a
               uk-icon='icon: linkedin'
               href='https://www.linkedin.com/in/butsnieva/'
@@ -56,7 +58,7 @@ function ContactCanvas() {
               target='_blank'
             ></a>
             <a
-              className='contact-link contact-li uk-text-bottom'
+              className='contact-link contact-li'
               href='https://www.linkedin.com/in/butsnieva/'
               target='_blank'
             >

@@ -8,14 +8,13 @@ import { clientSide, serverSide, testing } from "../../utils/skillsData";
 
 function SkillsPage(props) {
   return (
-    <div>
+    <div id='skills-img'>
       <Navbar />
       <Header padding={70} title='Technical Skills' />
       <CardContainer>
         <div
           className='uk-child-width-1-3@m uk-grid-match'
           uk-grid='true'
-          uk-scrollspy='cls: uk-animation-fade target: .uk-card; delay: 250; repeat: true'
           id='skills-section'
         >
           <SkillsCard
@@ -23,21 +22,18 @@ function SkillsPage(props) {
             title='Client Side'
             icon='desktop'
             name='client'
-            animate='slide-left'
           />
           <SkillsCard
             skills={serverSide}
             title='Server Side'
             icon='server'
             name='server'
-            animate='slide-up'
           />
           <SkillsCard
             skills={testing}
             title='Testing'
             icon='cog'
             name='Testing'
-            animate='slide-right'
           />
         </div>
       </CardContainer>

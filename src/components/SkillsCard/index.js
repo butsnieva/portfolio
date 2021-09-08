@@ -16,7 +16,7 @@ function SkillsCard(props) {
           </ul>
         </div>
         <div
-          className={`uk-card-footer portfolio-card-footer ${props.name}-card-footer`}
+          className={`uk-card-footer ${props.name}-card-footer`}
         >
           <div>
             <span

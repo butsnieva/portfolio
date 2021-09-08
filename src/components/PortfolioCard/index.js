@@ -34,12 +34,12 @@ function PortfolioCard(props) {
         <div className='uk-card-footer portfolio-card-footer'>
           <div className='uk-text-center'>
             <a href={props.siteURL} target='_blank' className='btn-link'>
-              <button className='uk-button uk-button-default portfolio-btn'>
+              <button className='uk-button portfolio-btn'>
                 View Website
               </button>
             </a>
             <a href={props.repoURL} target='_blank' className='btn-link'>
-              <button className='uk-button uk-button-default portfolio-btn'>
+              <button className='uk-button portfolio-btn'>
                 GitHub Repo
               </button>
             </a>

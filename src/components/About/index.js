@@ -12,23 +12,22 @@ function AboutSection() {
           <div id='about-me'>
             <Header title='About Me' />
             <p className='uk-text-justify about-me-desc'>
-              Hi! I'm Kateryna, I'm a full-stack web developer. Lorem ipsum
-              dolor sit amet, consectetur adipiscing elit. Curabitur cursus
-              massa et purus feugiat faucibus. Nullam at justo ac est interdum
-              sodales nec nec metus. Praesent vitae elementum augue. Aliquam nec
-              placerat enim. Aenean molestie, dui et mattis volutpat, nisi elit
-              varius leo, id rhoncus lorem eros vel velit. Nunc accumsan
-              porttitor risus. Nam ut lobortis justo, sit amet congue urna.
+              Hello! My name is Kateryna and I enjoy creating things that live
+              on the internet! My interest in web development started back in
+              2006 when my middle school has purchased computers and we started
+              to dive into the IT world, spending 7 hours/week learning and
+              coding! (Pascal, anyone? :D)
+              <br />
+              Through my studies, I've gained a solid understanding of computer
+              science and web development concepts, and have dedicated my free
+              time to apply these concepts to real-world scenarios and
+              applications.
               <br />
               <br />
-              Duis aliquet, turpis nec sodales posuere, arcu augue iaculis ex,
-              et congue urna dolor nec risus. Morbi turpis libero, mattis vel
-              vehicula sed, finibus et dolor. Phasellus tincidunt nisi quis
-              eleifend molestie. In tristique nulla quis lacinia fermentum.
-              Quisque non laoreet neque. Vestibulum ante ipsum primis in
-              faucibus orci luctus et ultrices posuere cubilia curae; Vivamus
-              pulvinar nisi a lacinia faucibus. Nullam commodo tincidunt
-              venenatis. Donec at justo leo.
+              The hands-on programming experience using the most demanded
+              languages and frameworks, paired with background in testing gives
+              me the opportunity to apply the best practices in Web development
+              to deliver a clean and efficient codebase.
             </p>
             <img src={profilePic} alt='Me' id='me-pic' />
           </div>

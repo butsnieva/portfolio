@@ -18,6 +18,7 @@ function PortfolioCard(props) {
             <div className='uk-flex uk-flex-between'>
               <h3 className='uk-card-title project-title'>{props.title}</h3>
               <div className='uk-flex uk-flex-middle wrapper'>
+                {props.siteURL && 
                 <div className='icon'>
                   <div className='tooltip'>Website</div>
                     <a
@@ -29,6 +30,8 @@ function PortfolioCard(props) {
                     >
                     </a>
                 </div>
+                }
+                { props.repoURL && 
                 <div className='icon'>
                   <div className='tooltip'>Github</div>
                     <a
@@ -40,6 +43,7 @@ function PortfolioCard(props) {
                     >
                     </a>
                 </div>
+                }
               </div>
             </div>
 

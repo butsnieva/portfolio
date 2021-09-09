@@ -37,22 +37,6 @@
     margin-bottom: 0px;
 }
 
-.portfolio-btn {
-    border-radius: 15px;
-    border: 1px solid var(--accent);
-    color: var(--accent);
-    padding: 0px 35px 0px 35px !important;
-    font-size: 10px;
-    background-color: white;
-}
-
-.portfolio-btn:hover {
-    background-color: var(--accent);
-    color: var(--white);
-    border: 1px solid var(--accent);
-}
-
-
 .wrapper .icon {
     position: relative;
     margin: 3px;

@@ -47,6 +47,7 @@
 }
 
 .wrapper .tooltip {
+    z-index: -1;
     position: absolute;
     top: 0;
     font-size: 12px;
@@ -63,6 +64,7 @@
 }
 
 .wrapper .icon:hover .tooltip {
+    z-index: 1;
     top: -20px;
     opacity: 1;
     visibility: visible;

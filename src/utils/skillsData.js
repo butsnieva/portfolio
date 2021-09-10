@@ -1,20 +1,20 @@
 const clientSide = [
-  'HTML',
-  'CSS',
+  'HTML 5',
+  'CSS 3',
   'JavaScript',
   'React',
   'jQuery',
-  'Handlebars',
   'Native DOM Methods',
   'Tailwind',
   'Bootstrap',
   'UIKit',
+  'Bulma'
 ];
 
 const serverSide = [
-  'APIs',
   'Node.js',
   'Express.js',
+  'Handlebars',
   'MySQL ',
   'Sequelize',
   'MongoDB',

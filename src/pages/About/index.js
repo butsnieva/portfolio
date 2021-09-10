@@ -7,7 +7,7 @@ import bottomPic from '../../assets/images/background/bottom.png';
 
 function AboutPage() {
   return (
-    <div id='pic-section' uk-parallax='bgy: -150'>
+    <div id='pic-section' uk-parallax='bgy: -200'>
       <Navbar />
       <HomeHeader />
       <AboutSection />

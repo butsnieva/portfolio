@@ -16,6 +16,13 @@ body {
     font-size: .85rem;
 }
 
+*::selection {
+    background-color: var(--accent); 
+}
+*::-moz-selection {
+    background-color: var(--accent); 
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif !important;
     color: var(--dark-gray) !important;

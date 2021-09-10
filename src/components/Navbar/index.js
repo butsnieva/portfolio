@@ -12,7 +12,7 @@ function Navbar(props) {
   return (
     <div>
       <nav
-        className='uk-navbar-container uk-navbar navbar'
+        className='uk-navbar-container uk-navbar navbar uk-margin-right'
         style={style.navbar}
       >
         <div className='uk-navbar-right'>

@@ -37,7 +37,7 @@ const myJoberCard = new ProjectCard(
    * This project is currently in development`,
   'React | Express.js | Node.js | MongoDB',
    myJoberPic,
-  'https://my-jober.herokuapp.com/',
+  'https://my-jober.web.app/',
   'https://github.com/butsnieva/myJober'
 );
 

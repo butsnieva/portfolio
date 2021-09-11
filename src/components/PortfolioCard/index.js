@@ -25,7 +25,7 @@ function PortfolioCard(props) {
                       href={props.siteURL}
                       target='_blank'
                       uk-icon='icon: world'
-                      ratio='1.2'
+                      ratio='1.15'
                       className='contact-icon contact-link-icon'
                     >
                     </a>

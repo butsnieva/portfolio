@@ -17,7 +17,7 @@ body {
 }
 
 *::selection {
-    background-color: var(--accent); 
+    background-color: rgb(177, 130, 186, 0.5); 
 }
 *::-moz-selection {
     background-color: var(--accent); 

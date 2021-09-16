@@ -7,6 +7,7 @@ import teamProfileGeneratorPic from '../assets/images/projects/team-profile-gene
 import bookSearchPic from '../assets/images/projects/book-search.png';
 import weatherDashPic from '../assets/images/projects/weather.png';
 import eCommercePic from '../assets/images/projects/e-commerce.png';
+import techBlogPic from '../assets/images/projects/tech-blog.png'
 
 
 
@@ -113,24 +114,26 @@ const eCommerceBackendCard = new ProjectCard(
   'https://github.com/butsnieva/e-commerce'
 );
 
-const portfolioGeneratorCard = new ProjectCard(
-  'Git It Done',
-  ``,
-  '',
-
-  '',
-  ''
+const techBlogCard = new ProjectCard(
+  'Tech Blog',
+  `A blog website that allows developers to publish posts and comment on other posts.
+   Landing page shows current blog posts and leads the user to a login page. Once logged in, user can view their dashboard which displays an option to create a new post as well as past posts by that user.
+   The application follows the MVC paradigm in its architectural structure, uses Handlebars.js as the templating language, Sequelize as the ORM, and the exxpress-session npm package for authentication.`,
+  'Node.js | Express.js | MySQL | Handlebars',
+  techBlogPic,
+  'https://bk-tech-blog.herokuapp.com/',
+  'https://github.com/butsnieva/tech-blog'
 )
 
 let portfolioData = [
-  myJoberCard, 
+  myJoberCard,
   budgetTrackerCard,
   bookSearchCard,
   eCommerceBackendCard,
-  notepadCard,
   teamProfileGeneratorCard,
+  techBlogCard,
+  notepadCard,
   bSafeCard,
-  weatherDashCard,
-];
+]
 
 export default portfolioData;
